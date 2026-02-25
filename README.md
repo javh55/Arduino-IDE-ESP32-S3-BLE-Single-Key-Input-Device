@@ -53,7 +53,11 @@ Activar funciones rápidas sin cables
 Demostraciones educativas de BLE HID
 Botones macro para software (OBS, Notepad, browsers, etc.)
 
+Librerias:
+https://github.com/h2zero/NimBLE-Arduino
+https://github.com/h2zero/NimBLE-Arduino
 
-Estado del proyecto
+
+Estado del proyecto:
 Versión inicial funcional y estable.
 Se pueden agregar más botones, combinaciones de teclas, modos de energía y perfiles BLE adicionales.
