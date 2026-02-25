@@ -29,7 +29,23 @@ Pulsador momentáneo
 Conexión simple: GPIO14 → Botón → GND
 
 
-Aplicaciones
+📌 Conexión física del botón
+BOTÓN
+ ┌──────────────┐
+ │      o o      │
+ └──────────────┘
+   |        |
+   |        └──> GPIO 14 (BUTTON_PIN)
+   └───────────> GND
+
+Usamos INPUT_PULLUP, así que:
+
+Estado normal: ALTO (HIGH)
+Pulsado a GND: BAJO (LOW)
+
+
+
+Aplicaciones:
 
 Automatizar comandos repetitivos
 Sistemas de accesibilidad
